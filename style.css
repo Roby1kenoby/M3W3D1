@@ -30,3 +30,12 @@ section{
     /* position: absolute;
     right: -5em */
 }
+
+.card{
+    transition: 1s linear;
+}
+
+.card:hover{
+    scale: 120%;
+    z-index: 1;
+}
