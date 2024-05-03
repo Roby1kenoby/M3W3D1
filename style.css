@@ -2,3 +2,31 @@
     --bs-primary-rgb: 114, 78, 248
 }
 
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.carousel-control-next{
+    right:-8em;
+}
+
+.carousel-control-prev{
+    left:-8em;
+}
+
+.carousel-control-prev svg{
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: white;
+    /* position: absolute;
+    right: 9em */
+}
+
+.carousel-control-next svg{
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: white;
+    /* position: absolute;
+    right: -5em */
+}
